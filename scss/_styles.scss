@@ -1,0 +1,11 @@
+html {
+   font-family: $primaryFont;
+}
+
+.container {
+   width: 1280px;
+   margin: 0 auto;
+}
+button, select {
+   cursor: pointer;
+}

@@ -1,0 +1,54 @@
+@mixin price-text-header($mgn-bottom: 12px) {
+  display: inline-block;
+  font-family: $headerFont;
+  font-size: 18px;
+  line-height: 28px;
+  color: $commentsFontColor;
+  text-align: center;
+  margin-bottom: $mgn-bottom;
+}
+
+@mixin price-text-info1() {
+  display: inline-block;
+  font-size: 11px;
+  line-height: 17px;
+  color: $commentsFontColor;
+  text-align: center;
+}
+
+@mixin price-text-sale() {
+  display: inline-block;
+  font-family: $cardFont;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: 0.64px;
+  color: $priceHeader-LinkColor;
+  text-align: center;
+  margin-bottom: 13px;
+}
+
+@mixin price-text-info2() {
+  display: inline-block;
+  font-size: 13px;
+  line-height: 20px;
+  color: $priceFontColor;
+  text-align: center;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+@mixin price-button() {
+  width: 260px;
+  height: 60px;
+  background-color: $buttonColor;
+  box-shadow: 0px 0px 20px #E24C2C87;
+  border-radius: 7px;
+  color: #FFFFFF;
+  font-family: $cardFont;
+  font-size: 15px;
+  line-height: 19px;
+  margin-left: 43px;
+  margin-right: 43px;
+  outline: none;
+  border: none;
+}

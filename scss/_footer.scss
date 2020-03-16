@@ -1,0 +1,39 @@
+/*---------------------------section-footer-----------------------------*/
+.footer {
+  width: 100%;
+  height: 155px;
+  background: #2A1818;
+  color: #FFFFFF;
+  &__top {
+    display: flex;
+    width: 100%;
+    height: calc(155px - 61px);
+    border-bottom: 1px solid #FFF6;
+    box-sizing: border-box;
+  }
+  &__bottom {
+    display: flex;
+    width: 100%;
+    height: calc(155px - 94px);
+  }
+  &__logo, &__privat-policy, &__date-rights {
+    align-self: center;
+  }
+  &__logo {
+    margin-right: 284px;
+    margin-left: 85px;
+  }
+  &__privat-policy {
+    font-size: 15px;
+    line-height: 50px;
+    margin-right: 500px;
+    opacity: 0.8;
+  }
+  &__date-rights {
+    font-size: 13px;
+    line-height: 50px;
+    margin-right: 526px;
+    margin-left: 526px;
+    opacity: 0.4;
+  }
+}

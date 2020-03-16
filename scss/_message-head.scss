@@ -1,0 +1,14 @@
+/*--------------------section-messege-head-------------------*/
+.message-head {
+  width: 920px;
+  margin-bottom: 36px;
+  padding: 0 181px 0 179px;
+  &__head {
+    font-family: $headerFont;
+    color: $headFontColor;
+    font-size: 26px;
+    letter-spacing: 0.52px;
+    line-height: 36px;
+    text-align: center;
+  }
+}

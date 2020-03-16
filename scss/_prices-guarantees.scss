@@ -1,0 +1,457 @@
+/*-------------section-price-guarantees-form-----------------*/
+.content {
+  display: flex;
+  width: 100%;
+  height: 475px;
+  margin-bottom: 40px;
+  /*-----------1/1-form------------*/
+  &__form {
+    display: none;
+    flex-direction: column;
+    width: 532px;
+    height: 475px;
+    margin-left: 135px;
+    margin-right: 77px;
+  }
+  /*---------form-trial------------*/
+  &__form-trial {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 151px;
+    margin-bottom: 25px;
+  }
+  &__form-trial-headerTimer {
+    width: 100%;
+    height: 41px;
+    border-radius: 7px 7px 0 0;
+    background-color: $priceHeader-LinkColor;
+    h2 {
+      display: inline-block;
+      font-family: $headerFont;
+      font-size: 20px;
+      line-height: 41px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      margin-left: 23px;
+      margin-right: 74px;
+    }
+    span {
+      display: inline-block;
+      font-family: $headerFont;
+      font-size: 17px;
+      line-height: 41px;
+      color: #FFFFFF;
+      opacity: .69;
+      margin-right: 23px;
+    }
+  }
+  &__form-trial-border {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 1px solid #D4D9E6;
+    box-sizing: border-box;
+  }
+  &__form-trial-img {
+    width: 83px;
+    height: 94px;
+    margin: 7px 19px 8px 23px;
+  }
+  &__form-trial-text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 189px;
+    height: 75px;
+    margin: 19px 43px 16px 0;
+    h3 {
+      width: 100%;
+      display: inline-block;
+      font-family: $headerFont;
+      font-size: 16px;
+      line-height: 25px;
+      color: $commentsFontColor;
+      margin-bottom: 3px;
+    }
+  }
+  &__form-trial-text-info1 {
+    display: inline-block;
+    font-size: 9px;
+    line-height: 14px;
+    color: $commentsFontColor;
+    margin-right: 15px;
+    align-self: center;
+    text-indent: 1px;
+  }
+  &__form-trial-text-sale {
+    display: inline-block;
+    font-family: $cardFont;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.32px;
+    color: $priceHeader-LinkColor;
+  }
+  &__form-trial-text-info2 {
+    display: inline-block;
+    font-size: 10px;
+    text-indent: 1px;
+    line-height: 14px;
+    color: $priceFontColor;
+  }
+  &__form-trial-button {
+    width: 118px;
+    height: 37px;
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    color: #3D8F85;
+    font-family: $cardFont;
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: 36px;
+    margin-right: 52px;
+    outline: none;
+    border: 2px solid #3D8F85;
+  }
+  /*---------form-annual-plan------*/
+  &__form-annual-plan {
+    display: none;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 116px;
+    border: 1px solid #D4D9E6;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-bottom: 34px;
+  }
+  &__form-annual-plan-img {
+    display: inline-block;
+    width: 77px;
+    height: 84px;
+    margin: 14px 27px 17px 21px;
+  }
+  &__form-annual-plan-text {
+    width: 168px;
+    height: 78px;
+    margin: 21px 84px 17px 0;
+    h3 {
+      display: inline-block;
+      font-family: $headerFont;
+      font-size: 18px;
+      line-height: 28px;
+      color: $commentsFontColor;
+    }
+  }
+  &__form-annual-plan-text-sale {
+    display: inline-block;
+    font-family: $cardFont;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.36px;
+    color: $priceHeader-LinkColor;
+    margin-bottom: 3px;
+    span {
+      display: inline-block;
+      font-family: $primaryFont;
+      font-size: 11px;
+      line-height: 12px;
+      letter-spacing: 0;
+      color: $headFontColor;
+      margin-left: -6px;
+    }
+  }
+  &__form-annual-plan-text-info2 {
+    display: inline-block;
+    font-size: 10px;
+    line-height: 14px;
+    color: $priceFontColor;
+  }
+  &__form-annual-plan-button {
+    width: 127px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    color: #3D8F85;
+    font-family: $cardFont;
+    font-size: 15px;
+    line-height: 19px;
+    margin-top: 37px;
+    margin-right: 26px;
+    outline: none;
+    border: 2px solid #3D8F85;
+  }
+  /*-----------form-area-----------*/
+  &__name-card-img {
+    width: 467px;
+    height: 30px;
+    margin-left: 5px;
+    margin-bottom: 19px;
+  }
+  &__form-area {
+    width: 100%;
+    height: 277px;
+    margin-bottom: 15px;
+    .form {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      &__field {
+        position: relative;
+      }
+      label {
+        display: inline-block;
+        font-family: $primaryFont;
+        font-size: 10px;
+        line-height: 14px;
+        margin-bottom: 5px;
+        color: $headFontColor;
+      }
+      input {
+        width: 250px;
+        height: 39px;
+        border: 1px solid #D4D9E6;
+        border-radius: 7px;
+        padding: 9px 0 10px 10px;
+        box-sizing: border-box;
+        margin-right: 10px;
+      }
+      select {
+        height: 39px;
+        border: 1px solid #D4D9E6;
+        border-radius: 7px;
+        padding: 9px 0 10px 30px;
+        box-sizing: border-box;
+        margin-right: 10px;
+      }
+      &__delimiter {
+        display: block;
+        font-weight: bold;
+        margin: 0 6px;
+        align-self: center;
+      }
+      &__card-props {
+        display: flex;
+        width: 100%;
+        min-height: 80px;
+        #card_month {
+          width: 130px;
+          margin-right: 0;
+        }
+        #card_year {
+          width: 102px;
+          margin-right: 22px;
+        }
+      }
+      &__name {
+        display: flex;
+        width: 100%;
+        min-height: 80px;
+        margin-bottom: 15px;
+        #user_surname {
+          margin-right: 22px;
+        }
+      }
+      &__button {
+        display: flex;
+        width: 100%;
+        height: 40px;
+        align-items: center;
+        button {
+          width: 127px;
+          height: 40px;
+          background-color: $buttonColor;
+          border-radius: 7px;
+          color: #FFFFFF;
+          font-family: $cardFont;
+          font-size: 15px;
+          line-height: 19px;
+          letter-spacing: 0.15px;
+          opacity: 0.6;
+          outline: none;
+          border: none;
+          margin-right: 17px;
+        }
+        span {
+          font-family: $primaryFont;
+          font-size: 11px;
+          line-height: 17px;
+          letter-spacing: 0;
+          color: $inputFontColor;
+        }
+      }
+      &__button-img {
+        width: 24px;
+        height: 24px;
+      }
+
+    }
+  }
+  /*----------form-alert-----------*/
+  &__form-alert {
+    width: 399px;
+    span {
+      font-family: $primaryFont;
+      font-size: 10px;
+      line-height: 15px;
+      color: $priceFontColor;
+      a {
+        color: $headFontColor;
+      }
+    }
+  }
+
+  /*-----------1/2-price-----------*/
+  &__prices {
+    display: flex;
+    width: 728px;
+    height: 475px;
+    margin-left: 87px;
+    margin-right: 19px;
+  }
+  /*--------prices-trial-----------*/
+  &__prices-trial {
+    width: 350px;
+    height: 475px;
+    border: 2px solid $priceHeader-LinkColor;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-right: 28px;
+  }
+  &__prices-trial-headerTimer {
+    width: 100%;
+    height: 87px;
+    background-color: $priceHeader-LinkColor;
+    margin-bottom: 4px;
+    h2 {
+      display: inline-block;
+      font-family: $headerFont;
+      font-size: 24px;
+      line-height: 41px;
+      letter-spacing: .72px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      margin-left: 23px;
+      margin-right: 18px;
+    }
+    span {
+      display: inline-block;
+      font-family: $headerFont;
+      font-size: 21px;
+      line-height: 29px;
+      letter-spacing: .42px;
+      color: #FFFFFF;
+      opacity: .69;
+      margin-left: 66px;
+      margin-right: 66px;
+    }
+  }
+  &__prices-trial-img {
+    display: inline-block;
+    margin-left: 128px;
+    margin-right: 127px;
+    margin-bottom: 18px;
+  }
+  &__prices-trial-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    h3 {
+      @include price-text-header();
+    }
+  }
+  &__prices-trial-text-info1 {
+    @include price-text-info1();
+  }
+  &__prices-trial-text-sale {
+    @include price-text-sale();
+  }
+  &__prices-trial-text-info2 {
+    @include price-text-info2();
+
+  }
+  &__prices-trial-button {
+    @include price-button();
+  }
+  /*---------prices-annual-plan-----------*/
+  &__prices-annual-plan {
+    width: 350px;
+    height: 475px;
+    border: 1px solid #D4D9E6;
+    border-radius: 7px;
+    box-sizing: border-box;
+  }
+  &__prices-annual-plan-img {
+    display: inline-block;
+    margin: 94px 127px 20px 128px;
+  }
+  &__prices-annual-plan-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    h3 {
+      @include price-text-header(28px);
+    }
+  }
+  &__prices-annual-plan-text-sale {
+    @include price-text-sale();
+    span {
+      display: inline-block;
+      font-family: $primaryFont;
+      font-size: 13px;
+      line-height: 20px;
+      letter-spacing: 0;
+      color: $commentsFontColor;
+      margin-left: -10px;
+    }
+  }
+  &__prices-annual-plan-text-info2 {
+    @include price-text-info2();
+
+  }
+  &__prices-annual-plan-button {
+    @include price-button();
+  }
+  /*--------------1/3-guarantee-------------*/
+  &__guarantees {
+    width: 408px;
+    height: 460px;
+    margin-right: 38px;
+    position: relative;
+  }
+  &__guarantees-ribbon {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  &__guarantees-text {
+    display: block;
+    position: absolute;
+    top: 13px;
+    left: 73px;
+    z-index: 2;
+  }
+  &__guarantees-list {
+    position: absolute;
+    top: 74px;
+    left: 97px;
+    list-style-image: url(../images/check.svg);
+    font-size: 16px;
+    line-height: 40px;
+    color: $headFontColor;
+  }
+  &__guarantees-list li{
+    padding-left: 10px;
+  }
+  &__guarantees-listHeader {
+    display: block;
+    font-family: $headerFont;
+    font-size: 18px;
+    line-height: 24px;
+    color: $priceFontColor;
+    padding-left: 10px;
+  }
+}

@@ -1,0 +1,60 @@
+/*----------------------section-slider----------------------------------*/
+.comments-slider {
+  flex-wrap: wrap;
+  width: 1160px;
+  height: 200px;
+  margin: 0 87px 40px 77px;
+  &__comments, &__double {
+    display: flex;
+    #comments-3_4, #comments-5_6 {
+      display: none;
+    }
+  }
+  &__comment {
+    display: flex;
+    width: 533px;
+    height: 190px;
+    margin-right: 47px;
+  }
+  &__comment-img {
+    width: 80px;
+    height: 80px;
+    margin-right: 21px;
+  }
+  &__comment-text {
+    h3 {
+      font-family: $headerFont;
+      font-size: 18px;
+      line-height: 28px;
+      color: $headFontColor;
+      margin-bottom: 10px;
+    }
+    span {
+      display: inline-block;
+      width: 432px;
+      font-size: 15px;
+      line-height: 25px;
+      color: $commentsFontColor;
+    }
+  }
+  &__slider {
+    display: flex;
+    width: 50px;
+    height: 10px;
+    margin: 1.5px 575px 0 555px;
+    input {
+      width: 23px;
+      height: 10px;
+      padding: 0;
+      border: none;
+      outline: none;
+      border-radius: 3px;
+      background-color: $priceHeader-LinkColor;
+      cursor: pointer;
+    }
+    #slider-check1 {
+      margin-right: 4px;
+      background-color: $buttonColor;
+    }
+  }
+}

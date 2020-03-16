@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Payment page" />
+	<meta name="keywords" content="Landing page, my letter, payment test" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Payment test</title>
+	<link rel="stylesheet" type="text/css" href="./styles/main.css" />
+	<script async type="text/javascript" src="./scripts/slider.js"></script>
+	<script async type="text/javascript" src="./scripts/timer.js"></script>
+	<script async type="text/javascript" src="./scripts/open-form.js"></script>
+	<script async type="text/javascript" src="./scripts/change-prices.js"></script>
+	<script async type="text/javascript" src="./scripts/check-form.js"></script>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<div class="header">
+				<a href="#" class="header__logo">
+					<img src="./images/my_letter1.svg" alt="logo image" />
+				</a>
+				<a href="#" class="header__link">Edit details in your letter</a>
+			</div>
+		</header>
+		<main>
+			<section>
+				<div class="message-head">
+					<h1 class="message-head__head">
+						Your profile is ready. Get your personalized cover letter now for less than the price of a cup of coffee and improve your career.
+					</h1>
+				</div>
+			</section>
+			<section>
+				<div class="content">
+					<div class="content__form">
+						<div class="content__form-change">
+							<div class="content__form-trial">
+								<div class="content__form-trial-headerTimer">
+									<h2>Limited summer offer</h2>
+									<span class="timer">02d : 24h : 55m</span>
+								</div>
+								<div class="content__form-trial-border">
+									<img src="./images/settings.svg" class="content__form-trial-img"  alt="image trial" />
+									<div class="content__form-trial-text">
+										<h3>Trial</h3>
+										<span class="content__form-trial-text-info1"> The first week only for</span>
+										<span class="content__form-trial-text-sale">$0.99</span>
+										<span class="content__form-trial-text-info2">Rebills at $8.99 per month after your trial is completed.</span>
+									</div>
+									<button class="content__form-trial-button">Change</button>
+								</div>
+							</div>
+							<div class="content__form-annual-plan">
+								<img src="./images/buy.svg" class="content__form-annual-plan-img"  alt="image annual plan" />
+								<div class="content__form-annual-plan-text">
+									<h3>Annual Plan</h3>
+									<span class="content__form-annual-plan-text-sale">$39.00
+									<span>/year</span>
+								</span>
+									<span class="content__form-annual-plan-text-info2">Your Premium plan will auto-renew. Cancel any time.</span>
+								</div>
+								<button class="content__form-annual-plan-button">Change</button>
+							</div>
+						</div>
+						<div class="content__form-area">
+							<img src="./images/card.svg" class="content__name-card-img" alt="name card">
+							<form class="form">
+								<div class="form__card-props">
+									<div class="form__field">
+										<label for="card_number">Card number</label>
+										<input type="text" id="card_number" placeholder="Enter card number" required="required" />
+									</div>
+									<div class="form__field">
+										<label for="card_month">Exp. month</label>
+										<select  size="1" id="card_month" required="required">
+											<option>01</option>
+											<option>02</option>
+											<option>03</option>
+											<option>04</option>
+											<option>05</option>
+											<option>06</option>
+											<option>07</option>
+											<option>08</option>
+											<option>09</option>
+											<option>10</option>
+											<option>11</option>
+											<option>12</option>
+										</select>
+									</div>
+									<span class="form__delimiter">/</span>
+									<div class="form__field">
+										<label for="card_year">Exp. year</label>
+										<select  size="1" id="card_year" required="required">
+											<option>00</option>
+											<option>01</option>
+											<option>02</option>
+											<option>03</option>
+											<option>04</option>
+											<option>05</option>
+											<option>06</option>
+											<option>07</option>
+											<option>08</option>
+											<option>09</option>
+											<option>10</option>
+											<option>11</option>
+											<option>12</option>
+											<option>13</option>
+											<option>14</option>
+											<option>15</option>
+											<option>16</option>
+											<option>17</option>
+											<option>18</option>
+											<option>19</option>
+											<option>20</option>
+											<option>21</option>
+											<option>22</option>
+											<option>23</option>
+											<option>24</option>
+											<option>25</option>
+										</select>
+									</div>
+								</div>
+								<div class="form__name">
+									<div class="form__field">
+										<label for="user_name">Cardholder First Name</label>
+										<input type="text" id="user_name" placeholder="Enter First Name" required="required" />
+									</div>
+									<div class="form__field">
+										<label for="user_surname">Cardholder Last Name</label>
+										<input type="text" id="user_surname" placeholder="Enter Last Name" required="required" />
+									</div>
+								</div>
+								<div class="form__button">
+									<button type="submit" id="submit">Confirm</button>
+									<img src="./images/closed_safe.svg" class="form__button-img" alt="lock"/>
+									<span>
+										Secure credit card payment
+									</span>
+								</div>
+							</form>
+						</div>
+						<div class="content__form-alert">
+							<span>Your card will be automatically attached to your profile, you can remove it at any time. By clicking “Confirm” you agree to the
+								<a href="#">Terms & Conditions</a>
+							</span>
+						</div>
+					</div>
+					<div class="content__prices">
+						<div class="content__prices-trial">
+							<div class="content__prices-trial-headerTimer">
+								<h2>Limited summer offer</h2>
+								<span class="timer">02d : 24h : 55m</span>
+							</div>
+							<img src="./images/settings.svg" class="content__prices-trial-img"  alt="image trial" />
+							<div class="content__prices-trial-text">
+								<h3>Trial</h3>
+								<span class="content__prices-trial-text-info1">The first week only for</span>
+								<span class="content__prices-trial-text-sale">$0.99</span>
+								<span class="content__prices-trial-text-info2">Rebills at $8.99 per month after your trial is completed.</span>
+							</div>
+							<button class="content__prices-trial-button">Get started</button>
+						</div>
+						<div class="content__prices-annual-plan">
+							<img src="./images/buy.svg" class="content__prices-annual-plan-img"  alt="image annual plan" />
+							<div class="content__prices-annual-plan-text">
+								<h3>Annual Plan</h3>
+								<span class="content__prices-annual-plan-text-sale">$39.00
+									<span>/year</span>
+								</span>
+								<span class="content__prices-annual-plan-text-info2">Your Premium plan will auto-renew. Cancel any time.</span>
+							</div>
+							<button class="content__prices-annual-plan-button">Get started</button>
+						</div>
+					</div>
+					<div class="content__guarantees">
+						<img src="./images/ribbon.svg" class="content__guarantees-ribbon" alt="ribbon header">
+						<img src="./images/text.svg" class="content__guarantees-text" alt="ribbon text">
+						<ul class="content__guarantees-list">
+							<span class="content__guarantees-listHeader">Your plan will include:</span>
+							<li>Unlimited Cover Letters</li>
+							<li>50+ custom templates</li>
+							<li>Creative designs</li>
+							<li>Custom backgrounds</li>
+							<li>More than 15 color schemes</li>
+							<li>Create multiple versions</li>
+							<li>Custom sections</li>
+							<li>Unlimited PDF downloads</li>
+							<li>Email sharing</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="comments-slider">
+					<div class="comments-slider__comments">
+						<div id="comments-1_2" class="comments-slider__double">
+							<div class="comments-slider__comment" id="comment_1">
+								<img src="images/foto_user_1.png" class="comments-slider__comment-img" alt="user avatar" />
+								<div class="comments-slider__comment-text">
+									<h3>Deborah H.</h3>
+									<span>“It is important to show your skills in a cover letter; I think you have already heard it before”. Only in this case, you will have an opportunity to prove your abilities in the interview. I decided to take the help of qualified professionals. My skills were demonstrated in the right way.”</span>
+								</div>
+							</div>
+							<div class="comments-slider__comment" id="comment_2">
+								<img src="images/foto_user_2.png" class="comments-slider__comment-img" alt="user avatar" />
+								<div class="comments-slider__comment-text">
+									<h3>Cooper D.</h3>
+									<span>“I always love a wide selection of something, and the CL has satisfied my needs in this case. Many variations of strengths and designs impressed me and made me push the matter through. And I did not regret my choice when the company sent me an offer for cooperation.”</span>
+								</div>
+							</div>
+						</div>
+						<div id="comments-3_4">	
+							<div class="comments-slider__comment" id="comment_3">
+								<img src="images/foto_user_1.png" class="comments-slider__comment-img" alt="user avatar" />
+								<div class="comments-slider__comment-text">
+									<h3>Megan F.</h3>
+									<span>Hello , I'm Megan. </span>
+								</div>
+							</div>
+							<div class="comments-slider__comment" id="comment_4">
+								<img src="images/foto_user_2.png" class="comments-slider__comment-img" alt="user avatar" />
+								<div class="comments-slider__comment-text">
+									<h3>Robert D.</h3>
+									<span>Hello , I'm Robert.</span>
+								</div>
+							</div>
+						</div>	
+						<div id="comments-5_6">
+							<div class="comments-slider__comment" id="comment_5">
+								<img src="images/foto_user_1.png" class="comments-slider__comment-img" alt="user avatar" />
+								<div class="comments-slider__comment-text">
+									<h3>Scarlett J.</h3>
+									<span>Hello , I'm Scarlett. </span>
+								</div>
+							</div>
+							<div class="comments-slider__comment" id="comment_6">
+								<img src="images/foto_user_2.png" class="comments-slider__comment-img" alt="user avatar" />
+								<div class="comments-slider__comment-text">
+									<h3>Chris H.</h3>
+									<span>Hello , I'm Chris.</span>
+								</div>
+							</div>
+						</div>	
+					</div>
+					<div class="comments-slider__slider">
+						<input type="button" id="slider-check1" />
+						<input type="button" id="slider-check2" />
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="footer">
+				<div class="footer__top">
+					<a href="#" class="footer__logo">
+						<img src="./images/my_letter2.svg" alt="logo image" />
+					</a>
+					<span class="footer__privat-policy">Private Policy &emsp;&emsp;&ensp;&ensp;|&emsp;&emsp;&ensp;&ensp; Term of Use</span>
+				</div>
+				<div class="footer__bottom">
+					<span class="footer__date-rights">© 2019, My Letter. All rights reserved.</span>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
